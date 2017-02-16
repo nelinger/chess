@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.appengine.helloworld;
+package com.nelinger.chess;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -23,9 +23,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-// [START example]
 @SuppressWarnings("serial")
-public class HelloServlet extends HttpServlet {
+public class MainServlet extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
@@ -33,4 +32,3 @@ public class HelloServlet extends HttpServlet {
     out.println("Hello, world");
   }
 }
-// [END example]

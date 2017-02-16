@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
   version="2.5">
   <servlet>
-    <servlet-name>hello</servlet-name>
-    <servlet-class>com.example.appengine.helloworld.HelloServlet</servlet-class>
+    <servlet-name>main</servlet-name>
+    <servlet-class>com.nelinger.chess.MainServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>hello</servlet-name>
+    <servlet-name>main</servlet-name>
     <url-pattern>/</url-pattern>
   </servlet-mapping>
 </web-app>
