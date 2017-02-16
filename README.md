@@ -1,5 +1,8 @@
 # chess
 
-Run server locally:
-$ cd appengine/app
+## Run locally
+
+```
+$ cd appengine
 $ mvn appengine:devserver
+```
